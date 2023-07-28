@@ -1,0 +1,6 @@
+XOR_Deep
+4
+8
+2
+2
+Enter Net  Details here
