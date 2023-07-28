@@ -1,0 +1,50 @@
+  <VnnBpNet>
+    <Name>VNetName</Name>
+    <Detail>No Details</Detail>
+    <Data>
+      <TngData>Training FileName: TngDt000.csv</TngData>
+      <TestData>Test FileName: TstDt000.csv</TestData>
+    </Data>
+    <Cfg>
+      <Hd>Type,Num</Hd>
+      <Dt>in,11</Dt>
+      <Dt>out,1</Dt>
+      <Dt>hdn,12,7</Dt>
+      <Dt>typ,5</Dt>
+      <Dt>con,178</Dt>
+      <Dt>pos,31</Dt>
+      <Dt>tng,0,0</Dt>
+    </Cfg>
+    <Nu>
+      <Hd>SNo,NuType,NuFun,ColNo,RowNo,Bias</Hd>
+      <Dt>0,In,y=x,0,0,0</Dt>
+      <Dt>1,In,y=x,0,1,0</Dt>
+      <Dt>2,In,y=x,0,2,0</Dt>
+      <Dt>9,In,y=x,0,9,0</Dt>
+      <Dt>10,In,y=x,0,10,0</Dt>
+      <Dt>11,Hdn,exp+,1,0,0.338761684092703</Dt>
+      <Dt>12,Hdn,exp+,1,1,10.19955898074</Dt>
+       <Dt>28,Hdn,exp+,2,9,-0.0467624539643588</Dt>
+      <Dt>29,Hdn,exp+,2,10,0.153527088644343</Dt>
+      <Dt>30,Out,exp+,3,0,2.13953327702394</Dt>
+    </Nu>
+    <Conn>
+      <Hd>SNo,Src,Dst,Weight</Hd>
+      <Dt>0,0,11,-0.396772871843135</Dt>
+      <Dt>1,0,12,-4.44241309742593</Dt>
+      <Dt>174,26,30,8.66564324046662</Dt>
+      <Dt>175,27,30,8.9507248567403</Dt>
+      <Dt>176,28,30,1.20914459177854</Dt>
+      <Dt>177,29,30,11.3552155455394</Dt>
+    </Conn>
+    <Pos>
+      <Hd>SNo, PosX, PosY</Hd>
+      <Dt>0,12,18</Dt>
+      <Dt>1,12,19</Dt>
+      <Dt>2,12,20</Dt>
+      <Dt>3,12,21</Dt>
+       <Dt>28,20,27</Dt>
+      <Dt>29,20,28</Dt>
+      <Dt>30,24,23</Dt>
+    </Pos>
+  </VnnBpNet>
