@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VnnBpProj>
+  <Nets>1</Nets>
+  <VnnBpNet>
+    <Name>XOR_Deep</Name>
+    <Detail>7 Hidden Layer XOR Training</Detail>
+    <Data>
+      <TngData>Training FileName: TngDt000.csv</TngData>
+      <TestData>Test FileName: TstDt000.csv</TestData>
+    </Data>
+    <Cfg>
+      <Hd>Type,Num</Hd>
+      <Dt>in,4</Dt>
+      <Dt>out,2</Dt>
+      <Dt>hdn,3,2,2,3,2,3,4</Dt>
+      <Dt>typ,2</Dt>
+      <Dt>con,23</Dt>
+      <Dt>pos,13</Dt>
+      <Dt>tng,0,0</Dt>
+    </Cfg>
+    <Nu>
+      <Hd>SNo,NuType,NuFun,ColNo,RowNo,Bias</Hd>
+      <Dt>0,In,y=x,0,0,0</Dt>
+      <Dt>1,In,y=x,0,1,0</Dt>
+      <Dt>2,In,y=x,0,2,0</Dt>
+      <Dt>3,In,y=x,0,3,0</Dt>
+      <Dt>4,Hdn,exp+,2,0,2.96947485068868</Dt>
+      <Dt>5,Hdn,exp+,2,1,0.798568123938598</Dt>
+      <Dt>6,Hdn,exp+,2,2,-0.700064141693175</Dt>
+      <Dt>7,Hdn,exp+,4,0,2.58222684302261</Dt>
+      <Dt>8,Hdn,exp+,4,2,-6.15154896148441</Dt>
+      <Dt>9,Hdn,exp+,6,0,-1.32084639853748</Dt>
+      <Dt>10,Hdn,exp+,6,2,4.49977672351615</Dt>
+      <Dt>11,Out,exp+,8,0,5.54016911037274</Dt>
+      <Dt>12,Out,exp+,8,1,-12.6274589998678</Dt>
+    </Nu>
+    <Conn>
+      <Hd>SNo,Src,Dst,Weight</Hd>
+      <Dt>0,0,4,-3.00050131451024</Dt>
+      <Dt>1,0,5,3.38004501237966</Dt>
+      <Dt>2,0,6,-3.05828495824694</Dt>
+      <Dt>3,1,4,-3.02207593321834</Dt>
+      <Dt>4,1,5,3.35482634879665</Dt>
+      <Dt>5,1,6,-3.07418086641475</Dt>
+      <Dt>6,2,5,-6.94711181107938</Dt>
+      <Dt>7,2,6,-6.34183094060448</Dt>
+      <Dt>8,3,5,6.76731589530999</Dt>
+      <Dt>9,3,6,6.16669035372524</Dt>
+      <Dt>10,4,8,6.57036248652043</Dt>
+      <Dt>11,5,7,-5.56376827363605</Dt>
+      <Dt>12,5,8,5.58701639709048</Dt>
+      <Dt>13,6,7,6.10132671828034</Dt>
+      <Dt>14,6,8,-5.52805812101997</Dt>
+      <Dt>15,7,9,7.2531217728746</Dt>
+      <Dt>16,7,10,7.5716535634271</Dt>
+      <Dt>17,8,9,-11.0546031579585</Dt>
+      <Dt>18,8,10,-10.4144244383924</Dt>
+      <Dt>19,9,11,18.6854755277715</Dt>
+      <Dt>20,9,12,13.8509556882747</Dt>
+      <Dt>21,10,11,-18.5438461792763</Dt>
+      <Dt>22,10,12,12.4034860288636</Dt>
+    </Conn>
+    <Pos>
+      <Hd>SNo, PosX, PosY</Hd>
+      <Dt>0,4,1</Dt>
+      <Dt>1,4,2</Dt>
+      <Dt>2,4,3</Dt>
+      <Dt>3,4,4</Dt>
+      <Dt>4,8,1</Dt>
+      <Dt>5,8,2</Dt>
+      <Dt>6,8,3</Dt>
+      <Dt>7,12,2</Dt>
+      <Dt>8,12,3</Dt>
+      <Dt>9,16,2</Dt>
+      <Dt>10,16,3</Dt>
+      <Dt>11,20,1</Dt>
+      <Dt>12,20,2</Dt>
+    </Pos>
+  </VnnBpNet>
+</VnnBpProj>
