@@ -26,6 +26,9 @@ Quick Start-
 15.	Click ‘Save Net’ button in ‘Neural Net Basic Parameters’ dialog box to save trained net
 
 
+![image](https://github.com/hsmazumdar/DeepNetToolBox/assets/16040087/5a85e818-1592-436e-a63a-89ab8c7d27bb)
+
+
 
 
  
